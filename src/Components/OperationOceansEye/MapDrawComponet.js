@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const MapData = () => {
+export const MapDrawComponent = () => {
   return (
     <div>MapData</div>
   )
