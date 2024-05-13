@@ -1,7 +1,7 @@
 # Operation Ocean's Eye 
 ## Required Modules 
-npm i
-npm i mapbox-gl @truf/truf
+## npm i
+## npm i mapbox-gl @truf/truf
 In the project directory, you can run:
 
 ## `npm start` to start the app.
