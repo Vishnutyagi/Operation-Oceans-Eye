@@ -3,33 +3,35 @@
   width: 100vw;
 }
 
-.btn{
- position: fixed;
- top: 40px;
- right: 20px;
- padding: 10px 20px 10px;
- color: black;
- background: rgb(0,212,255);
- background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(236,236,225,1) 59%); 
- border: 2px solid black;
- border-radius: 10px;
+.btn {
+  position: fixed;
+  top: 40px;
+  right: 20px;
+  padding: 10px 20px 10px;
+  color: black;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(236, 236, 225, 1) 59%);
+  border: 2px solid black;
+  border-radius: 10px;
 }
-.btn:hover{
-opacity: .7;
+
+.btn:hover {
+  opacity: .7;
 }
-calculation-box {
+
+.calculation-box {
   max-height: 70vh;
   width: 30%;
   position: fixed;
   top: 40px;
   left: 10px;
-  background: rgb(0,212,255);
-  background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(236,236,225,1) 59%); 
+  background: rgb(0, 212, 255);
+  background: linear-gradient(0deg, rgba(0, 212, 255, 1) 0%, rgba(236, 236, 225, 1) 59%);
   padding: 15px;
   text-align: left;
   color: black;
   overflow: hidden;
-  scroll-behavior: auto;
+  /* scroll-behavior: auto; */
   border-radius: 20px;
   border: 1px solid black;
   opacity: .9;
@@ -38,46 +40,52 @@ calculation-box {
   font-style: normal;
   overflow-y: scroll;
 }
-.main{
-/* width: 100vw;
-height: 100vh;
-display: flex; */
+
+.heading-listship {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-bottom: 5px;
 }
-.heading-listship{
-border-bottom: 1px solid black;
-text-align: center;
-padding-bottom: 5px;
+
+.calculation-box>ul>li {
+  padding: 5px;
 }
-.calculation-box>ul>li{
-padding: 5px;
-}
+
 /* marquee div container */
 .marquee {
 
-font-size: 3.5vh;
-color: #fff;
-font-family: "Roboto Slab", serif;
-height: 5vh;
-overflow: hidden;
-margin: auto;
-background: rgb(0,212,255);
-background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(236,236,225,1) 59%);
-position: relative;
-color: black;
+  font-size: 3.5vh;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  height: 5vh;
+  overflow: hidden;
+  margin: auto;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(0deg, rgba(0, 212, 255, 1) 0%, rgba(236, 236, 225, 1) 59%);
+  position: relative;
+  color: black;
 }
+
 /* nested div inside the container */
 .marquee div {
-display: block;
-width: 400%;
-position: absolute; 
-overflow: hidden;
-animation: marquee 15s linear 1;
+  display: block;
+  width: 400%;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 15s linear 1;
 }
+
 .marquee span {
-float: left;
-width: 50%;
+  float: left;
+  width: 50%;
 }
+
 @keyframes marquee {
-0% { left: 0; }
-100% { left: -100%; }
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -100%;
+  }
 }
